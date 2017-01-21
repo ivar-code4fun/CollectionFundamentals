@@ -17,7 +17,7 @@ namespace BinarySearch
 
             Console.WriteLine("Index of sunday is : {0}", indexOfSun);
             Console.WriteLine("Value at that index is of course : {0}",sortedDays[indexOfSun]);
-            
+            Console.WriteLine("testing git");
         }
     }
 }
