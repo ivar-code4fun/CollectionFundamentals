@@ -20,6 +20,7 @@ namespace PrimeMinistersDictionary
             //PrimeMinister pm = primeMinisters["JC"];
             //Console.WriteLine("Value is : " + pm.ToString());
             primeMinisters["JC"] = new PrimeMinister("Jim Callahan", 1976);
+            primeMinisters.Remove("JC");
             primeMinisters["JM"] = new PrimeMinister("John Major", 1990);
             primeMinisters.Add("GB", new PrimeMinister("Gordon Brown", 2007));
 
